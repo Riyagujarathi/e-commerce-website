@@ -1,8 +1,8 @@
 let MainImg = document.getElementById("MainImg");
 let smallImg = document.getElementsByClassName("small-img");
 
-let hamburgerOut = document.getElementById("bar1");
-let hamburgerIn = document.getElementById("bar2");
+let buttonOut = document.getElementById("bar1");
+let buttonIn = document.getElementById("bar2");
 
 let navbar = document.getElementById("navbar");
 let header = document.getElementById("header");
@@ -20,12 +20,12 @@ window.addEventListener("scroll", () => {
   lastScrollTop = currScrollTop;
 });
 
-// Nav bar Mobile (Hamburger)
 
-hamburgerOut.addEventListener("click", () => {
+
+button.Out.addEventListener("click", () => {
   navbar.classList.toggle("active");
 });
-hamburgerIn.addEventListener("click", () => {
+buttonIn.addEventListener("click", () => {
   navbar.classList.toggle("active");
 });
 
